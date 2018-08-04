@@ -1,0 +1,19 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="http://vui.com/css/style.css">
+    </head>
+    <body class="container-fluid">
+            <div class="landing">
+                <img style="height: 90px; width: 264"class="logo" src="http://vui.com/logo.png">
+                <hr class="bar">
+                <h2 style="margin-top: 50px" class="headline">
+                <% if (name) { %>
+                    Thank You, <%- name %>!
+                <% } else { %>
+                    Thank You!
+                <% } %>
+                </h2>
+                <h3 class="tagline">We will notify you at <span id="email"><%- email %></span> when we launch.</h3>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./css/devices.css">
+      <% title="VUI - Intelligent Digital Voice for Enterprise" %>
+      <%- include ./components/head.ejs %>
+      
+    </head>
+    <body>
+      <%include ./components/header.ejs %>
+      <div class="container-fluid landing">
+        <section class="billboard container">
+            <div class="row">
+                <div class="col-md-5">
+                  <hr class="bar">
+                  <h1 class="headline">Intelligent Digital Voice for Enterprise</h1>
+                  <h3 class="tagline">VUI is the world’s first and only voice-driven marketing, sales and customer care platform. </h3>
+                <% include ./components/buttons.ejs %>
+                </div>
+                <div class="floating">
+                    <div class="speech-bubble"><h3>Let's talk!</h3></div>
+                    <button type="submit" class="voice-button"><img src="./img/vui-waves.svg"></button>
+                </div>
+                <div class="col-md-7 devices">
+                  <div class="marvel-device ipad silver">
+                      <div class="camera"></div>
+                      <div class="screen">
+                          <!-- Content goes here -->
+                      </div>
+                      <div class="home"></div>
+                  </div>
+                  <div class="marvel-device iphone8 silver">
+                      <div class="top-bar"></div>
+                      <div class="sleep"></div>
+                      <div class="volume"></div>
+                      <div class="camera"></div>
+                      <div class="sensor"></div>
+                      <div class="speaker"></div>
+                      <div class="screen">
+                          <!-- Content goes here -->
+                      </div>
+                      <div class="home"></div>
+                      <div class="bottom-bar"></div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <div style="position:relative;">
+          <img class='divider device-divide' src='./img/divider.svg'>
+        </div>
+        <section class="trusted">
+          <h1>Trusted By</h1>
+          <div class="clients">
+              <img src="./img/brands/m-gemi.png"  class="client-logo">
+              <img src="./img/brands/eon.png" class="client-logo">
+              <img src="./img/brands/samsung.png" class="client-logo">
+              <img src="./img/brands/ford.png" class="client-logo">
+          </div>
+
+          <div class="wrap">
+            <!-- <div class="scrollbar">
+              <div class="handle" style="transform: translateZ(0px) translateX(76px); width: 190px;">
+                <div class="mousearea"></div>
+              </div>
+            </div> -->
+            <div class="frame" id="centered" style="overflow: hidden;">
+              <ul class="clearfix">
+                <li>
+                  <div class="testimony">
+                    <div class="card-block">
+                      <img src="./img/quote.svg" class="quote">
+                      <h4 class="card-title">Mark T.</h4>
+                      <p class="card-text">It’s half the cost of our current call centre operations and our customers love it!
+                      <img src="./img/brands/eon.png" class="card-logo">
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="testimony">
+                      <div class="card-block">
+                        <img src="./img/quote.svg" class="quote">
+                        <h4 class="card-title">Mark T.</h4>
+                        <p class="card-text">It’s half the cost of our current call centre operations and our customers love it!
+                            <img src="./img/brands/samsung.png" class="card-logo">
+                        </p>
+                      </div>
+                  </div>
+                  </li>
+                <li>
+                  <div class="testimony">
+                    <div class="card-block">
+                        <img src="./img/quote.svg" class="quote">
+                      <h4 class="card-title">Mark T.</h4>
+                      <p class="card-text">It’s half the cost of our current call centre operations and our customers love it!
+                          <img src="./img/brands/ford.png" class="card-logo">
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <img class='divider right-divide' src='./img/divider-grey.svg'>
+        <section class="features">
+          <div class="row row-centered">
+            <div class="col-sm-4 col-centered left">
+              <div class="feature">
+                <img class="feature-img" src="./img/icons/devices.svg">
+                <h3>Embed Voice in any Digital Channel</h3>
+                <p>Web, Mobile, Social, Smart Home Assistants</p>
+                <p class="alignment-fix"></p>
+              </div>
+              <div class="feature">
+                <img class="feature-img" src="./img/icons/secure.svg">
+                <h3>Secure Voice</h3>
+                <p>VUI protects your customer voice data</p>
+              </div>
+            </div>
+            <div class="col-sm-4 col-centered center">
+                <img class="core" src="./img/vui-core.svg">
+            </div>
+            <div class="col-sm-4 col-centered right">
+              <div class="feature">
+                <img class="feature-img" src="./img/icons/multiplatform.svg">
+                <h3>Multiplatform Deployment</h3>
+                <p>Maintain one codebase and deploy on any platform, across devices and around the world</p>
+              </div>
+              <div class="feature">
+                <img class="feature-img" src="./img/icons/voice-to-human.svg">
+                <h3>Digital Voice to Human</h3>
+                <p>Seamless handoff from digital voice to a real human when needed</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <img class='divider' src='./img/divider-blue.svg'>
+        <section class="omnidigital">
+          <h1>Omni-Digital Voice</h1>
+          <div class="table">
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/help-me-button.svg">
+              <h3>Help Me Button</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/voice-concierge.svg">
+              <h3>Voice Concierge</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/smart-call-routing.svg">
+              <h3>Smart Call Routing</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/scaleable-customer-care.svg">
+              <h3>Scaleable Customer Care</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/real-time-analytics.svg">
+              <h3>Real Time Analytics</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+            <div class="item col-sm-4">
+              <img class="item-img" src="./img/omnidigital/monitor-your-budget.svg">
+              <h3>Monitor Your Budget</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="more-info">
+        <button type="submit" onclick="location.href='./platform';" class="btn filled-gradient-btn">More Info</button>
+        <img src="./img/more-info.svg">
+        <div class="cta">
+          <h1>Get In Touch for a Demo</h1>
+          <p>Learn more about how to use our product and sign up for our newsletter.</p>
+          <button type="button" class="btn outlined-gradient-btn" data-toggle="modal" data-target="#basicModal">Sign up For Free</button>
+        </div>
+      </div>
+      <% include ./components/footer.ejs %>
+
+    </body>
+</html>

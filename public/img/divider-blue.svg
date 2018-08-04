@@ -1,0 +1,18 @@
+
+<svg height="136px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-18.0259828%" y1="100%" x2="115.511351%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#0070F8" offset="0%"></stop>
+            <stop stop-color="#00EBEE" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-322.02231,2946.15213 C-321.814709,2942.81721 0.335374435,3049.44778 812.742495,2949.07286 C1625.14961,2848.69794 2008.10762,3062.82635 2008.10762,3062.82635 L2187.5551,3186.85287" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD" transform="translate(0.000000, -2917.000000)">
+            <g id="Path_263-Copy-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="url(#linearGradient-1)" stroke-width="2" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+        <% title="VUI - Emails" %>
+        <%- include ./components/head.ejs %>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <script>
+            conn = 'http://localhost:8080'
+            var socket = io.connect(conn);
+                socket.on('removed', function (data) {
+                    console.log(data)
+                    $('td:contains("'+data+'")').parent().css('color','red')
+                });
+                socket.on('allowed', function (data) {
+                    console.log(data)
+                    $('tr:contains("'+data+'")').css('color','green')
+                });
+        </script>                  
+    </head>
+    <body>
+        <div class="landing">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Company</th>                    
+                    <th scope="col">Time Added</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for (i = 0; i < emails.length; i++){ %>
+                        <tr>
+                            <th scope="row"><%=i+1%></th>
+                            <td><%=emails[i].email%></td>
+                            <td><%=emails[i].name%></td>
+                            <td><%=emails[i].company%></td>
+                            <td><%=emails[i].time%></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>          
+            <button onclick="location.href='./emails/download';" class="btn filled-gradient-btn csv">Download CSV</button> 
+            <button onclick="socket.emit('clean')" class="btn filled-gradient-btn csv">Clean Database</button>            
+            
+        </div>
+        <%- include ./components/footer.ejs %>    
+    </body>
+</html>

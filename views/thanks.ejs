@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% title="VUI - Preparing to Launch" %>
+        <%- include ./components/head.ejs %>            
+    </head>
+    <body>
+    <%include ./components/header.ejs %>
+      <div class="container-fluid landing">
+      <div class="jumbotron aboutjum">
+        <div class="container">
+          <h1 class="hedline">Thank You!</h1>
+          <p>We will notify you at <b><span id="email"><%- email %></span></b> when we launch.</p>
+          <p>Until then, feel free to check out our <a href="https://blog.vui.com">blog</a> or learn more <a href="./about">about us</a>.</p>
+        </div>
+      </div>
+    </div>
+
+      <%- include ./components/footer.ejs %>  
+
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/devices.css">
+    <% title="VUI - Pricing" %>
+    <%- include ./components/head.ejs %>
+  </head>
+  <body>
+    <%include ./components/header.ejs %>
+    <div class="container-fluid">
+        <section class="centered-billboard container">
+            <hr class="bar">
+            <h1>VUI Pricing</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius velit iaculis</h3>
+            <div class="centered-btns">
+                <%include ./components/buttons.ejs %>
+            </div>
+        </section>
+        <section class="prices">
+            <div class="table">
+                <div class="price col-sm-4 left">
+                    <img src="./img/pricing/enabled.svg">
+                    <h3>Voice Enabled</h3>
+                    <h2 class="currency">$</h2>
+                    <h2 class="cost">0</h2>
+                    <p>Defined Customer Journeys</p>
+                    <ul>
+                        <li>Voice Agents for Brands</li>
+                        <li>Mobile, Apps, Home Assistant, web</li>
+                        <li>Defined basic questions such as:</li>
+                        <li class="indented">"Where is the nearest store?"</li>
+                        <li>Your knowledge base and FAQ resource</li>
+                    </ul>
+                    <button type="submit" class="btn filled-gradient-btn">Get Voice!</button>
+                </div>
+                <div class="price col-sm-4 prefered">
+                    <img src="./img/pricing/integrated.svg">
+                    <h3>Voice Integrated</h3>
+                    <h2 class="currency">$</h2>
+                    <h2 class="cost">1</h2>
+                    <p>Per AI assisted voice conservation</p>
+                    <ul>
+                        <li>Voice Agents for Brands</li>
+                        <li>Mobile, Apps, Home Assistant, web</li>
+                        <li>Defined basic questions such as:</li>
+                        <li class="indented">"Where is the nearest store?"</li>
+                        <li>Your knowledge base and FAQ resource</li>
+                    </ul>
+                    <button type="submit" class="btn filled-gradient-btn">Get Answers!</button>
+                </div>
+                <div class="price col-sm-4 right">
+                    <img src="./img/pricing/on-demand.svg">
+                    <h3>On-Demand</h3>
+                    <h2 class="contact">Contact Us</h2>
+                    <p class="contact">Defined Customer Journeys</p>
+                    <ul>
+                        <li>Voice Agents for Brands</li>
+                        <li>Mobile, Apps, Home Assistant, web</li>
+                        <li>Defined basic questions such as:</li>
+                        <li class="indented">"Where is the nearest store?"</li>
+                        <li>Your knowledge base and FAQ resource</li>
+                    </ul>
+                    <button type="submit" class="btn filled-gradient-btn">Get Human!</button>
+                </div>
+            </div>
+            <div class="pricing-quote">
+                <h2>“VUI is value priced - we either make or save money every time our customers use digital voice.”</h2>
+                <p>Rochus Schneider, Belize Telemedia</p>
+            </div>
+        </section>
+
+    </div>
+    <% include ./components/footer.ejs %>
+  </body>
+</html>

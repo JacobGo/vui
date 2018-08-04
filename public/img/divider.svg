@@ -1,0 +1,23 @@
+<svg version="1.1" height="180px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+              <linearGradient x1="-18.0259828%" y1="100%" x2="115.511351%" y2="50%" id="linearGradient-1">
+                  <stop stop-color="#0070F8" offset="0%"></stop>
+                  <stop stop-color="#00EBEE" offset="100%"></stop>
+              </linearGradient>
+              <path d="M-43.4416664,942.41761 C-43.3493311,946.545023 129.706919,843.053957 883.679224,953.139407 C1927.34603,1105.52236 2078.63519,905.321846 2078.63519,905.321846" id="path-3"></path>
+          </defs>
+           <g id="Page-1" stroke="none" stroke-width="1" fill="white">
+                <g id="HD-Platform" transform="translate(0.000000, -859.000000)" stroke="#AAB6C7" stroke-width="2">
+                    <path d="M-126.660366,858.547773 C-126.568031,861.838912 173.504676,838.824589 886.363698,968.513005 C1599.22272,1098.20142 1928.92942,885.039408 1928.92942,885.039408" id="Path_263-Copy-8"></path>
+                </g>
+            </g>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="HD-Platform" transform="translate(0.000000, -897.000000)">
+                  <g id="Path_263-Copy-6" class="divborder">
+                      <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-3"></use>
+                      <use stroke="url(#linearGradient-1)" stroke-width="2" xlink:href="#path-3"></use>
+                  </g>
+              </g>
+          </g>
+          
+</svg>

@@ -1,0 +1,56 @@
+#navbar {
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    color: #606B77;
+    background-color: white;
+    .logo {
+        height: 40px;
+        width: 120px;
+    }
+    li {
+        font-family: 'Lato';
+        margin-left: 45px;
+    }
+    li a:hover {
+        color: $vui-light;
+    }
+    ul {
+        padding-top: 10px;
+    }
+    .nav .outlined-gradient-btn {
+        margin-top: 0px;
+        vertical-align: 0px;
+        padding: 8px 32px 8px 32px;
+        font-size: 16px;
+  }
+  .navbar-toggle {
+      background-color:  #FFF;
+      margin-top: 20px;      
+  }
+  .navbar-default{
+    background-color: #FFF;
+  }
+}
+#navbar {
+    @media (max-width: 768px) {
+        li {
+            margin-left: 0px;
+            margin-bottom: 25px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .nav .outlined-gradient-btn {
+            font-size: 25px;
+            margin-right: 0px;
+        }
+        .navbar-collapse {
+            max-height: initial;
+            overflow: hidden;
+            border-bottom: 1px solid transparent;
+            border-color: #e7e7e7;
+              }
+    }
+}
+.container {
+    margin-top: 150px;
+}

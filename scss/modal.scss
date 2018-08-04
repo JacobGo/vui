@@ -1,0 +1,78 @@
+
+.underline {
+	border: none;
+	box-shadow: none;
+	font-size: 16px;
+	border-radius: 0px;
+	border-style: none;
+  border-bottom: solid rgb(22, 116, 199) 2px;
+  margin-bottom: 20px;
+	background-color: #fff;
+}
+.sbmt-btn {
+	font-family: Raleway;
+	font-weight: bold;
+ margin: auto;
+ width: 75%;
+ text-align: center;
+}
+.largeText {
+	display: block;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: bold;
+  font-size: 2em;
+  color: #0c4a8b;
+  margin-bottom: 0;
+}
+
+.modal-content {
+	font-family: Lato;
+	border-radius: 0px;
+	border: none;
+
+	padding: 20px;
+	h4 {
+		text-align: center;
+	}
+	img {
+		float: left;
+	}
+	max-width: 400px;
+	margin: auto;
+}
+
+.btn-holder {
+  text-align: center;
+}
+
+
+.video {
+  display: block;
+	left: 0px;
+	overflow: hidden;
+	padding-bottom: 56.25%; /* 56.25% = 16:9. set ratio */
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.video .wrapper {
+  display: block;
+	height: 300%;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.video iframe {
+  display: block;
+	height: 100%;
+	width: 100%;
+}

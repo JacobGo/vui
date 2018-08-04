@@ -1,0 +1,15 @@
+<svg height="1166px" viewBox="0 0 1920 1166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="81.3364253%" x2="78.829137%" y2="9.24919454%" id="linearGradient-1">
+            <stop stop-color="#006DF9" offset="0%"></stop>
+            <stop stop-color="#00E3EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD-Platform-Copy" transform="translate(0.000000, -989.000000)" fill="url(#linearGradient-1)">
+            <path d="M-11,1026.78798 C-11,1026.78798 222.885742,925.769826 972.37223,1054.06677 C1614.94202,1164.06173 1922.82142,1063.78798 1922.82142,1063.78798 L1922.82142,2156.33348 C1678.88574,2019.76979 1253.44614,1965.97146 956.410706,2001.76979 C383.885742,2070.76978 -10,2070.76979 -10,2070.76979 L-11,1026.78798 Z" id="Rectangle-4-Copy-3"></path>
+        </g>
+    </g>
+</svg>

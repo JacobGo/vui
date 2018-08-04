@@ -1,0 +1,51 @@
+<html>
+<head>
+  <% title="VUI - About" %>
+  <%- include ./components/head.ejs %>
+</head>
+<body>
+  <%include ./components/header.ejs %>
+  <div class="container-fluid landing">
+  <div class="jumbotron aboutjum">
+    <div class="container">
+      <h1 class="hedline">VUI is Brand-Intelligent Digital Voice</h1>
+      <p class="about-blurb">The VUI Platform was hand-crafted in Boston and Italy by artisans from Apple, Amazon, and Nokia. We continue working closely with our launch customers from retail, banking, insurance, and telecom to create meaningful Voice-First experiences. To learn more, drop us an email so we can connect.</p>
+    </div>
+  </div>
+  <div class="about-body container">
+    <!-- Team Members Row -->
+      <div class="about-row row">
+        <div class="col-lg-12">
+          <h1 class="team-heading">Our Team</h1>
+        </div>        
+        <% 
+          for (var i = 0; i < members.length; i++){ 
+          var member = members[i];
+        %>
+        <div class="team-member col-lg-6 col-sm-6 text-center mb-3">
+          <div class="team-content">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="<%= member.img %>" alt="">
+            <h3><%= member.name %></h3>
+            <h3 class="title"><%= member.role %></h3>
+              <span class="social">
+              <% for (var key in member) { if (member.hasOwnProperty(key)) {
+                  var val = member[key];
+                  console.log(val);
+                } %>
+                <% if (key == "instagram" && val != "") {%><a href="https://www.instagram.com/<%= val %>/" target="_blank" class="social-link"><i class="social-link fa fa-instagram"></i> </a> <% } %>
+                <% if (key == "facebook" && val != "") {%><a href="https://www.facebook.com/<%= val %>/" target="_blank" class="social-link"><i class="social-link fa fa-facebook"></i></a><%}%>
+                <% if (key == "twitter" && val != "") {%><a href="https://www.twitter.com/<%= val %>/" target="_blank" class="social-link"><i class="social-link fa fa-twitter"></i></a><%}%>
+                <% if (key == "linkedin" && val != "") {%><a href="https://www.linkedin.com/in/<%= val %>/" target="_blank" class="social-link"><i class="social-link fa fa-linkedin"></i></a><%}%>
+              <% } %>
+            </span>
+            <hr>
+            <p><%= member.bio %></p>
+          </div>
+        </div>
+        <% } %>
+      </div>
+  </div>
+  </div>
+  <%- include ./components/footer.ejs %>
+</body>
+</html>

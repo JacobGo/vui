@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./css/devices.css">
+      <% title="VUI - Intelligent Digital Voice for Enterprise" %>
+      <%- include ./components/head.ejs %>
+    </head>
+    <body>
+        <%include ./components/header.ejs %>
+        <div class="container-fluid">
+            <section class="centered-billboard container">
+                <hr class="bar">
+                <h1>VUI Resources</h1>
+                <h3 class="resources-ext">
+                Need advice on managing your customer care channels with voice?<br>
+                Want to understand the how the cloud can connect your users to people they can relate to?<br>
+                You’ve come to the right place!<br>
+                </h3>
+                <h2 class="read-now">
+                    Read our latest insights into voice enhanced customer care.
+                </h2>
+            </section>
+            <section class="blog">
+                <div class="posts">
+                <% for(var i = 0; i < posts.length; i++) { var post = posts[i]; var row=(i == 0 || i == 1 || i == 3);%>
+                    <% if (row) { %> <div class="row"> <% } %>
+                    <div class="<% if (i == 0) { %>featured col-sm-12<% }
+                                        else if (i > 0 && i < 3){%>col-sm-6<%}
+                                        else {
+                                            if (posts.length - 3 < 4) { %>col-sm-<%= 12 / (posts.length - 3)%><% }
+                                            else {%>col-sm-3<%}
+                                        }
+                                     %>">
+
+                        <div class="post">
+                            <img class="post-img" src="<%= post.img %>">
+                            <h2 class="post-title mobile-post-title"><%= post.Title %></h2>
+                            <div class="post-block">
+                                <h2 class="post-title"><%= post.Title %></h2>
+                                <p class="post-date"><%= post.Date %></p>
+                                <p class="post-text"><%= post.Text %></p>
+                                <a class="post-link" href="<%= post._id%>">Read More</a>
+                            </div>
+                        </div>
+                    <% if (i==0 || i == 2 || (i == post.length - 1 && post.length > 3 )) { %> </div> <% } %>
+
+                    </div>
+                <% } %>
+                </div>
+            </section>
+            <section class="demo">
+
+            </section>
+            <img class="bg" src="./img/pricing/pricing-bg.svg">
+    <% include ./components/footer.ejs %>
+    </body>
+</html>

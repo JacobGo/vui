@@ -1,0 +1,119 @@
+// Buttons
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+}
+.outlined-gradient-btn {
+    background: #fff;
+    border: 2px solid;
+    border-radius: 2px;
+    -moz-border-image: -moz-linear-gradient(to bottom right, $vui-dark 0%, $vui-light 100%);
+    -webkit-border-image: -webkit-linear-gradient(to bottom right, $vui-dark 0%, $vui-light 100%);
+    border-image: linear-gradient(to bottom right, $vui-dark 0%, $vui-light 100%);
+    border-image-slice: 1;
+    color: #00ACF3;
+  }
+.outlined-gradient-btn:hover, .outlined-gradient-btn:focus {
+    color: rgb(0, 127, 177);
+}
+
+.filled-gradient-btn {
+    background-image: linear-gradient(to bottom right, $vui-dark 0%, $vui-light 100%);
+    border-radius: 0px;
+    border: none;
+    color: white;
+}
+.filled-gradient-btn:hover, .filled-gradient-btn:focus {
+    border: none;
+    color: white;
+    outline: 0 !important;
+}
+.filled-gradient-btn:active{
+    -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.voice-button {
+    border: none;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background-image: linear-gradient(48deg, #006DF9 0%, #00E3EF 100%);
+}
+.voice-button:hover, .voice-button:focus {
+    border: none;
+    color: white;
+    outline: 0 !important;
+}
+.voice-button:active{
+    -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+// Dividers
+.bar {
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right, $vui-dark 0%, $vui-light 100%);
+    border-radius: 20px;
+    border: none;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0;
+}
+.divider {
+    position: relative;
+    width: 100vw;
+    z-index: 1001;
+}
+.right-divide {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+// Text
+h1 {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(84,84,84);
+}
+h3 {
+    font-family: Lato;
+    color: #606B77;
+    font-size: 18px;
+
+}
+
+// Display
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid {
+    padding-left: 0px;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+.hedline {
+    font-size: 40px !important;
+}
+.g-recaptcha > div {
+    margin: auto;
+    margin-top: 20px;
+}

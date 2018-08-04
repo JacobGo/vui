@@ -1,0 +1,25 @@
+<svg width="187px" height="202px" viewBox="0 0 187 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="81.3364253%" x2="86.0183602%" y2="25.6828466%" id="linearGradient-1">
+            <stop stop-color="#006DF9" offset="0%"></stop>
+            <stop stop-color="#00E3EF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-59.0%" y="-59.8%" width="217.9%" height="219.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="18.7586167" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD" transform="translate(-352.000000, -1408.000000)">
+            <g id="Trusted-by-section-Copy" transform="translate(-483.695434, 1078.472659)">
+                <g id="Quotes" transform="translate(857.689505, 329.562480)">
+                    <ellipse id="Oval-13" fill="url(#linearGradient-1)" cx="71.8096847" cy="70.7847738" rx="71.8096847" ry="70.7847738"></ellipse>
+                    <ellipse id="Oval-13-Copy" fill="url(#linearGradient-1)" opacity="0.556378265" filter="url(#filter-2)" cx="71.2067547" cy="109.962443" rx="47.7131194" ry="47.0321291"></ellipse>
+                    <path d="M46.503159,68.9094089 C46.503159,61.4842359 48.3267988,56.1591916 51.9741331,52.9341164 C55.6214674,49.7090413 60.8264394,48.0215272 67.5892052,47.8715237 L69.0709273,54.9591535 C61.0163973,55.7841727 57.2931327,59.4967036 57.9010218,66.0968574 L64.9676967,66.0968574 L64.9676967,84.097187 L46.503159,84.097187 L46.503159,68.9094089 Z" id="‘" fill="#FFFFFF"></path>
+                    <path d="M75.8798482,68.9094089 C75.8798482,61.4842359 77.703488,56.1591916 81.3508223,52.9341164 C84.9981567,49.7090413 90.2031286,48.0215272 96.9658944,47.8715237 L98.4476165,54.9591535 C90.3930865,55.7841727 86.6698219,59.4967036 87.277711,66.0968574 L94.3443859,66.0968574 L94.3443859,84.097187 L75.8798482,84.097187 L75.8798482,68.9094089 Z" id="‘-copy" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
